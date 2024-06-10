@@ -287,3 +287,4 @@ I'll log out of Client-1 as jane_admin and then use one of the newly created use
 ![image](https://github.com/iahalkhatib/Configure-AD-Azure/assets/170050432/f0c3cd26-ef51-4a44-909e-08d760d81eaf)
 
 To log in, I will use the password that was used for the newly created user in the script.
+
