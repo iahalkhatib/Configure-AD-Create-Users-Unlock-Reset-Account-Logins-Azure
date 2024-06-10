@@ -284,7 +284,30 @@ I'll re-run PowerShell as an administrator and then re-run the script to create 
 
 I'll log out of Client-1 as jane_admin and then use one of the newly created users to verify the login.
 
-![image](https://github.com/iahalkhatib/Configure-AD-Azure/assets/170050432/f0c3cd26-ef51-4a44-909e-08d760d81eaf)
+![image](https://github.com/iahalkhatib/Configure-AD-Azure/assets/170050432/8d96a9e1-55b7-4a03-83a6-3742e3fe9093)
+
+![image](https://github.com/iahalkhatib/Configure-AD-Azure/assets/170050432/e5fe94db-a8ed-4cff-afba-2a4500443f2b)
 
 To log in, I will use the password that was used for the newly created user in the script.
 
+![image](https://github.com/iahalkhatib/Configure-AD-Azure/assets/170050432/2ef362be-33e4-4348-b34c-ae78a770587a)
+
+![image](https://github.com/iahalkhatib/Configure-AD-Azure/assets/170050432/d46cde75-9dfa-4bff-88f2-1a6fba567840)
+
+![image](https://github.com/iahalkhatib/Configure-AD-Azure/assets/170050432/6483ddbc-9899-480d-9df1-bc4be7a5d327)
+
+To unlock an account that has been locked due to too many incorrect password attempts, I can use the Active Directory Users and Computers (ADUC) console on the Domain Controller. Here's how I can do it:
+
+1. I'll log in to the Domain Controller as an administrator.
+2. I'll open Active Directory Users and Computers.
+3. In the console tree, I'll navigate to the domain and then to "Users".
+4. I'll right-click on the locked user account and select "Properties".
+5. In the Properties dialog box, I'll go to the "Account" tab.
+6. I'll check the box next to "Unlock account".
+7. Finally, I'll click "OK" to unlock the account.
+
+![image](https://github.com/iahalkhatib/Configure-AD-Azure/assets/170050432/f824b7ad-0c78-44ff-931e-758e8d6ccdbd)
+
+![image](https://github.com/iahalkhatib/Configure-AD-Azure/assets/170050432/c08cbca0-fe82-4c12-8bbe-ecddc9c4c91c)
+
+Here is an example of how to reset a password for a user account in Active Directory
